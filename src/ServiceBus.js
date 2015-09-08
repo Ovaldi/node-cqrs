@@ -21,3 +21,5 @@ _.extend(ServiceBus.prototype, {
     publish  : _.bind(postal.publish, postal),
     subscribe: _.bind(postal.subscribe, postal)
 });
+
+module.exports = ServiceBus;
